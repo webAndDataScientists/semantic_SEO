@@ -16773,41 +16773,29 @@
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@graph": [
+            "@type": ["Park", "SportsActivityLocation"],
+            "name": "Parco Prati di Punta",
+            "image": "https://webanddatascientists.github.io/semantic_SEO/content/luoghi_images/parco_prati.jpg",
+            "description": "E' possibile praticare la pesca sportiva in uno dei due laghi artificiali; sono presenti inoltre parco giochi, campi bocce, tennis, basket, calcetto e beach-volley. L'area giochi può intrattenere i bambini mentre i papà si dedicano alla pesca di trote carpe e lucci; la superficie complessiva dei due laghi supera gli 8.000 metri quadrati. E' attivo un bar-pizzeria ed un noleggio per l'attrezzatura da pesca.",
+            "publicAccess": true,
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Località Prati di Punta",
+                "postalCode": "23034",
+                "addressLocality": "Grosotto",
+                "addressRegion": "SO",
+                "addressCountry": "IT"
+            },
+            "openingHoursSpecification": [
                 {
-                    "@type": "TouristAttraction",
-                    "@id": "https://webanddatascientists.github.io/semantic_SEO/pages/luoghi/parco_prati.html#place",
-                    "name": "Parco Prati di Punta",
-                    "image": "https://webanddatascientists.github.io/semantic_SEO/content/luoghi_images/parco_prati.jpg",
-                    "description": "E' possibile praticare la pesca sportiva in uno dei due laghi artificiali; sono presenti inoltre parco giochi, campi bocce, tennis, basket, calcetto e beach-volley. L'area giochi può intrattenere i bambini mentre i papà si dedicano alla pesca di trote carpe e lucci; la superficie complessiva dei due laghi supera gli 8.000 metri quadrati. E' attivo un bar-pizzeria ed un noleggio per l'attrezzatura da pesca.",
-                    "publicAccess": true,
-                    "address": {
-                        "@type": "PostalAddress",
-                        "streetAddress": "Località Prati di Punta",
-                        "postalCode": "23034",
-                        "addressLocality": "Grosotto",
-                        "addressRegion": "SO",
-                        "addressCountry": "IT"
-                    },
-                    "openingHoursSpecification": [
-                        {
-                            "@type": "OpeningHoursSpecification",
-                            "description": "Il parco è aperto tutto l'anno."
-                        }
-                    ],
-                    "accessibilitySummary": "Il parco è raggiungibile in auto ed è presente un ampio parcheggio in prossimità dell'accesso.",
-                    "subjectOf": [
-                        {
-                            "@id": "https://webanddatascientists.github.io/semantic_SEO/pages/luoghi/parco_prati.html#laghetto"
-                        },
-                        {
-                            "@id": "https://webanddatascientists.github.io/semantic_SEO/pages/luoghi/parco_prati.html#tennis"
-                        }
-                    ]
-                },
+                    "@type": "OpeningHoursSpecification",
+                    "description": "Il parco è aperto tutto l'anno."
+                }
+            ],
+            "accessibilitySummary": "Il parco è raggiungibile in auto ed è presente un ampio parcheggio in prossimità dell'accesso.",
+            "provider": [
                 {
                     "@type": "Organization",
-                    "@id": "https://webanddatascientists.github.io/semantic_SEO/pages/luoghi/parco_prati.html#laghetto",
                     "name": "Laghetto di Grosotto presso Parco Prati di Punta",
                     "url": "https://www.laghettogrosotto.fish/contatti/",
                     "contactPoint": {
@@ -16818,7 +16806,6 @@
                 },
                 {
                     "@type": "Organization",
-                    "@id": "https://webanddatascientists.github.io/semantic_SEO/pages/luoghi/parco_prati.html#tennis",
                     "name": "ASD Tennis Club Grosotto",
                     "url": "http://www.laghettogrosotto.com/index.php/altri-servizi/",
                     "telephone": "+393481995948"
