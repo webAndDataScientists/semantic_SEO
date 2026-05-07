@@ -1,0 +1,48 @@
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": "Iscrizione all'albo dei giudici popolari della corte d'Assise e della corte d'Assise d'appello",
+  "description": "Servizio che permette ai cittadini di richiedere l'iscrizione negli albi dei Giudici Popolari. I requisiti fondamentali prevedono: residenza anagrafica nel Comune di Grosotto, cittadinanza italiana e godimento dei diritti civili e politici.",
+  "serviceType": "Anagrafe e stato civile",
+  "provider": {
+    "@type": "GovernmentOrganization",
+    "name": "Comune di Grosotto",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Roma, 2",
+      "postalCode": "23034",
+      "addressLocality": "Grosotto",
+      "addressRegion": "SO",
+      "addressCountry": "IT"
+    },
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "contactType": "Ufficio Servizi Demografici e Protocollo",
+        "telephone": "0342 887107",
+        "email": "demografici@comune.grosotto.so.it",
+        "availableLanguage": "it"
+      },
+      {
+        "@type": "ContactPoint",
+        "contactType": "PEC Protocollo",
+        "email": "protocollo.grosotto@cert.provincia.so.it",
+        "availableLanguage": "it"
+      }
+    ]
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Grosotto"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Cittadini italiani residenti nel Comune di Grosotto in possesso dei requisiti di legge"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "description": "Il servizio di iscrizione è gratuito."
+  }
+}

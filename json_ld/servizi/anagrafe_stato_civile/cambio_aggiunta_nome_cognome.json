@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": "Cambio o aggiunta di nome e cognome",
+  "description": "Servizio che consente ai cittadini di richiedere il cambiamento o l'aggiunta del proprio nome o cognome. La competenza decisionale è della Prefettura, mentre l'Ufficio di Stato Civile del Comune si occupa di ricevere la documentazione, dell'affissione dell'avviso e della successiva trascrizione ed esecuzione del decreto di autorizzazione.",
+  "serviceType": "Anagrafe e stato civile",
+  "provider": {
+    "@type": "GovernmentOrganization",
+    "name": "Comune di Grosotto",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Roma, 2",
+      "postalCode": "23034",
+      "addressLocality": "Grosotto",
+      "addressRegion": "SO",
+      "addressCountry": "IT"
+    },
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "contactType": "Ufficio Servizi Demografici e Stato Civile",
+        "telephone": "0342 887107",
+        "email": "demografici@comune.grosotto.so.it",
+        "availableLanguage": "it"
+      },
+      {
+        "@type": "ContactPoint",
+        "contactType": "PEC Protocollo",
+        "email": "protocollo.grosotto@cert.provincia.so.it",
+        "availableLanguage": "it"
+      }
+    ]
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Grosotto"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Cittadini italiani residenti nel Comune di Grosotto, o il cui atto di nascita è registrato presso il Comune, che abbiano valide motivazioni (es. nomi ridicoli, vergognosi o che rivelano l'origine naturale) per richiederne la modifica."
+  },
+  "offers": {
+    "@type": "Offer",
+    "description": "Il procedimento richiede solitamente l'applicazione di una marca da bollo (16,00 €) sull'istanza da presentare in Prefettura e una sul decreto finale."
+  }
+}

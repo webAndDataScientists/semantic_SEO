@@ -1,0 +1,47 @@
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": "Altre autenticazioni di firma previste da norme specifiche",
+  "alternateName": "Autenticazione di firma",
+  "description": "Servizio per l'autenticazione della firma su atti e dichiarazioni per i quali specifiche disposizioni di legge prevedono tale formalità (ad esempio: passaggi di proprietà di veicoli, quietanze, deleghe per riscossioni, ecc.).",
+  "serviceType": "Anagrafe e stato civile",
+  "provider": {
+    "@type": "GovernmentOrganization",
+    "name": "Comune di Grosotto",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Roma, 2",
+      "postalCode": "23034",
+      "addressLocality": "Grosotto",
+      "addressRegion": "SO",
+      "addressCountry": "IT"
+    },
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "contactType": "Ufficio Servizi Demografici e Protocollo",
+        "telephone": "0342 887107",
+        "email": "demografici@comune.grosotto.so.it",
+        "availableLanguage": "it"
+      },
+      {
+        "@type": "ContactPoint",
+        "contactType": "PEC Protocollo",
+        "email": "protocollo.grosotto@cert.provincia.so.it",
+        "availableLanguage": "it"
+      }
+    ]
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Grosotto"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Tutti i cittadini (anche non residenti) che necessitano di autenticare la propria firma su specifiche documentazioni muniti di documento di identità valido."
+  },
+  "offers": {
+    "@type": "Offer",
+    "description": "I costi variano a seconda dell'uso del documento. Potrebbe essere richiesta una marca da bollo da 16,00 € e/o il pagamento dei diritti di segreteria, salvo specifiche esenzioni previste dalla legge in base all'uso dell'atto."
+  }
+}
