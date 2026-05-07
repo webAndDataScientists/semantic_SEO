@@ -1,0 +1,42 @@
+{
+    "@context": "https://schema.org",
+    "@type": "GovernmentService",
+    "name": "Calcolo IMU",
+    "description": "Il servizio fornisce un aiuto al contribuente per determinare l'importo dovuto IMU, sia per la quota in acconto che per la quota a saldo.",
+    "category": "Tributi, finanze e contravvenzioni",
+    "audience": {
+        "@type": "Audience",
+        "audienceType": "Proprietari o detentori di diritti su immobili soggetti al pagamento dell'IMU."
+    },
+    "provider": {
+        "@type": "GovernmentOrganization",
+        "name": "Comune di Grosotto - Ufficio tributi e commercio",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Via Roma, 2",
+            "postalCode": "23034",
+            "addressLocality": "Grosotto",
+            "addressRegion": "SO",
+            "addressCountry": "IT"
+        },
+        "telephone": "+39 0342 887107"
+    },
+    "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Comune di Grosotto"
+    },
+    "serviceOutput": {
+        "@type": "Thing",
+        "name": "Determinazione dell'importo dovuto IMU, sia per la quota in acconto che per la quota a saldo"
+    },
+    "isRelatedTo": {
+        "@type": "Thing",
+        "name": "IMU"
+    },
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "description": "Non sono previsti costi."
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "@context": "https://schema.org",
+    "@type": "GovernmentService",
+    "name": "Richiedere l'accesso agli atti (civico)",
+    "description": "Servizio che consiste nel diritto di prendere visione e/o estrarre copia di documenti amministrativi. L'accesso civico, previsto dall'art. 5 comma 1 del d.lgs. 33/2013, permette a ogni soggetto di richiedere la pubblicazione di documenti, informazioni o dati detenuti dalla Pubblica Amministrazione per i quali è previsto l'obbligo di pubblicazione, nel caso sia stata omessa o parziale.",
+    "provider": {
+        "@type": "GovernmentOrganization",
+        "name": "Comune di Grosotto - Area Affari Generali",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Via Roma, 2",
+            "postalCode": "23034",
+            "addressLocality": "Grosotto",
+            "addressRegion": "SO",
+            "addressCountry": "IT"
+        },
+        "telephone": "+390342887107",
+        "email": "protocollo.grosotto@cert.provincia.so.it",
+        "contactPoint": [
+            {
+                "@type": "ContactPoint",
+                "name": "Contatto paghe e personale",
+                "telephone": "+390342887107",
+                "email": "franca.robustellini@comune.grosotto.so.it"
+            },
+            {
+                "@type": "ContactPoint",
+                "name": "Contatto Polizia Locale",
+                "telephone": [
+                    "+390342887107",
+                    "+393392920808"
+                ],
+                "email": "polizialocale@comune.grosotto.so.it"
+            },
+            {
+                "@type": "ContactPoint",
+                "name": "Contatto Segreteria, tributi e commercio",
+                "telephone": "+390342887107"
+            },
+            {
+                "@type": "ContactPoint",
+                "name": "Contatto Servizi Demografici e Protocollo",
+                "telephone": "+390342887107",
+                "email": "demografici@comune.grosotto.so.it"
+            },
+            {
+                "@type": "ContactPoint",
+                "name": "Contatto Ufficio Tecnico",
+                "telephone": "+390342887107",
+                "email": [
+                    "ut@comune.grosotto.so.it",
+                    "luca.saladanna@comune.grosotto.so.it",
+                    "gabriele.salatenna@comune.grosotto.so.it"
+                ]
+            }
+        ]
+    },
+    "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Comune di Grosotto"
+    },
+    "audience": {
+        "@type": "Audience",
+        "audienceType": "Soggetti privati, compresi quelli portatori di interessi pubblici o diffusi, che abbiano un interesse diretto, concreto e attuale"
+    },
+    "serviceOutput": [
+        {
+            "@type": "Thing",
+            "name": "Visione dei documenti presso l'ufficio competente"
+        },
+        {
+            "@type": "Thing",
+            "name": "Copia dei documenti, informazioni o dati richiesti"
+        },
+        {
+            "@type": "Thing",
+            "name": "Pubblicazione sul sito internet dei dati, informazioni o documenti oggetto di pubblicazione obbligatoria, se omessi o pubblicati parzialmente"
+        }
+    ],
+    "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "Decreto legislativo 14 marzo 2013, n. 33, art. 5 comma 1",
+        "url": "https://www.gazzettaufficiale.it/eli/id/2013/04/05/13G00076/sg"
+    },
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "description": "L'esame dei documenti è gratuito. Il rilascio di copia è subordinato al rimborso del costo di riproduzione, salve le disposizioni vigenti in materia di bollo, nonché i diritti di ricerca e di visura."
+    },
+    "hoursAvailable": {
+        "@type": "OpeningHoursSpecification",
+        "description": "Servizio online accessibile tramite area riservata con SPID/CIE"
+    }
+}

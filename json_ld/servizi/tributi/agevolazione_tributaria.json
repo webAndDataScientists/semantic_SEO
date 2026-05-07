@@ -1,0 +1,68 @@
+{
+    "@context": "https://schema.org",
+    "@type": "GovernmentService",
+    "name": "Presentare domanda di agevolazione tributaria",
+    "description": "Agevolazioni o esenzioni per il pagamento di tributi comunali, basate su specifiche casistiche e/o per soggetti delle fasce più deboli.",
+    "serviceType": "Agevolazioni tributarie",
+    "provider": {
+        "@type": "GovernmentOrganization",
+        "name": "Comune di Grosotto - Area Affari Generali",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Via Roma, 2",
+            "postalCode": "23034",
+            "addressLocality": "Grosotto",
+            "addressRegion": "SO",
+            "addressCountry": "IT"
+        }
+    },
+    "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Grosotto"
+    },
+    "audience": {
+        "@type": "Audience",
+        "audienceType": "Contribuenti che rientrano nelle casistiche stabilite dalla legge e dai regolamenti comunali, comprese fasce deboli della popolazione."
+    },
+    "availableChannel": [
+        {
+            "@type": "ServiceChannel",
+            "name": "Segreteria tributi e commercio",
+            "servicePhone": {
+                "@type": "ContactPoint",
+                "contactType": "informazioni servizio",
+                "telephone": "+39 0342 887107"
+            }
+        },
+        {
+            "@type": "ServiceChannel",
+            "name": "Ufficio Tecnico",
+            "servicePhone": {
+                "@type": "ContactPoint",
+                "contactType": "assistenza tecnica",
+                "telephone": "+39 0342 887107",
+                "email": [
+                    "ut@comune.grosotto.so.it",
+                    "luca.saladanna@comune.grosotto.so.it",
+                    "gabriele.salatenna@comune.grosotto.so.it"
+                ]
+            }
+        },
+        {
+            "@type": "ServiceChannel",
+            "name": "San Marco SPA",
+            "servicePhone": {
+                "@type": "ContactPoint",
+                "contactType": "gestione tributi",
+                "telephone": "+39 0341 361144",
+                "email": "grosotto.imutari@sanmarcospa.it"
+            }
+        }
+    ],
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "description": "Non sono previsti costi."
+    }
+}

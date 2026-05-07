@@ -1,0 +1,42 @@
+{
+    "@context": "https://schema.org",
+    "@type": "GovernmentService",
+    "name": "Richiesta Taglio legna da ardere sui fondi/boschi comunali",
+    "description": "Tutte le informazioni utili riguardo le indicazioni per la richiesta di taglio legna da ardere sui fondi e boschi comunali.",
+    "category": "Agricoltura e pesca",
+    "audience": {
+        "@type": "Audience",
+        "audienceType": "Cittadini residenti nel Comune di Grosotto e altri cittadini aventi diritto di 'uso civico' sul territorio comunale di Grosotto"
+    },
+    "provider": {
+        "@type": "GovernmentOrganization",
+        "name": "Comune di Grosotto - Area Affari Generali",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Via Roma, 2",
+            "postalCode": "23034",
+            "addressLocality": "Grosotto",
+            "addressRegion": "SO",
+            "addressCountry": "IT"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "name": "Fabio Osmetti",
+            "email": "fabio.osmetti@comune.grosotto.so.it"
+        }
+    },
+    "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Comune di Grosotto"
+    },
+    "serviceOutput": {
+        "@type": "Permit",
+        "name": "Permesso per taglio legna da ardere sui boschi del Comune di Grosotto"
+    },
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "description": "Non sono previsti costi."
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "@context": "https://schema.org",
+    "@type": "GovernmentService",
+    "name": "Richiedere agevolazioni scolastiche",
+    "description": "Agevolazioni o esenzioni per il pagamento dei servizi scolastici erogati dal Comune o contributi economici al fine di favorire il diritto allo studio.",
+    "serviceType": "Agevolazioni scolastiche",
+    "category": [
+        "Educazione e formazione",
+        "Salute, benessere e assistenza"
+    ],
+    "provider": {
+        "@type": "GovernmentOrganization",
+        "name": "Comune di Grosotto",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Via Roma, 2",
+            "postalCode": "23034",
+            "addressLocality": "Grosotto",
+            "addressRegion": "Lombardia",
+            "addressCountry": "IT"
+        },
+        "telephone": "+39 0342 887107",
+        "contactPoint": [
+            {
+                "@type": "ContactPoint",
+                "name": "Contatto Segreteria e Affari Generali",
+                "telephone": "+39 0342 887107"
+            },
+            {
+                "@type": "ContactPoint",
+                "name": "Contatto Servizi Demografici e Protocollo",
+                "telephone": "+39 0342 887107",
+                "email": "demografici@comune.grosotto.so.it"
+            }
+        ]
+    },
+    "areaServed": {
+        "@type": "City",
+        "name": "Grosotto"
+    },
+    "audience": {
+        "@type": "Audience",
+        "audienceType": "Famiglie con minori frequentanti le scuole per l'infanzia, primarie e secondarie di primo grado residenti nel Comune"
+    },
+    "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceLocation": {
+            "@type": "Place",
+            "name": "Area Affari Generali",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Via Roma, 2",
+                "postalCode": "23034",
+                "addressLocality": "Grosotto",
+                "addressRegion": "SO",
+                "addressCountry": "IT"
+            }
+        }
+    },
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "description": "Non sono previsti costi."
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "@context": "https://schema.org",
+    "@type": "GovernmentService",
+    "name": "Sportello Unico Attività Produttività",
+    "alternateName": "SUAP",
+    "description": "Il punto di contatto unico fra imprese per tutte le pratiche relative all'apertura e alla gestione aziendale",
+    "category": [
+        "Imprese e commercio",
+        "Autorizzazioni",
+        "Ambiente"
+    ],
+    "areaServed": {
+        "@type": "City",
+        "name": "Grosotto"
+    },
+    "audience": {
+        "@type": "Audience",
+        "audienceType": "Imprese, ditte, società e associazioni che svolgono attività produttive. Proprietari di fabbricati o di impianti che verranno usati per attività produttive."
+    },
+    "serviceOutput": [
+        "Avvio, gestione e cessazione dell'attività",
+        "Localizzazione, trasformazione, trasferimento e riconversione",
+        "Gestione di rifiuti, scarichi ed emissioni in atmosfera",
+        "Occupazione di suolo pubblico e aree demaniali",
+        "Pubblicità"
+    ],
+    "offers": {
+        "@type": "Offer",
+        "priceSpecification": {
+            "@type": "PriceSpecification",
+            "description": "I costi variano in base alla pratica e sono consultabili sul portale Impresainungiorno o presso l'Ufficio Attività Produttive"
+        }
+    },
+    "availableChannel": {
+        "@type": "ServiceChannel",
+        "name": "Ufficio tributi e commercio",
+        "serviceLocation": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Via Roma, 2",
+                "postalCode": "23034",
+                "addressLocality": "Grosotto",
+                "addressRegion": "SO",
+                "addressCountry": "IT",
+                "telephone": "+39 0342 887107"
+            }
+        }
+    }
+}

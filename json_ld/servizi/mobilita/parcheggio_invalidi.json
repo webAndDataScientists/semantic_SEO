@@ -1,0 +1,43 @@
+{
+    "@context": "https://schema.org",
+    "@type": "GovernmentService",
+    "name": "Richiedere permesso per parcheggio invalidi",
+    "description": "Il contrassegno unico disabili europeo (Cude), è un pass strettamente personale che permette, all'avente diritto ed eventuali accompagnatori, di usufruire degli appositi stalli di sosta riservati ai disabili. Il contrassegno è valido su tutta la comunità. Per la richiesta sono necessari certificazione medica, fototessera, copia del contrassegno in caso di rinnovo e denuncia in caso di smarrimento.",
+    "provider": {
+        "@type": "GovernmentOrganization",
+        "name": "Comune di Grosotto",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Via Roma, 2",
+            "postalCode": "23034",
+            "addressLocality": "Grosotto",
+            "addressRegion": "SO",
+            "addressCountry": "IT"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Servizi Demografici e Protocollo",
+            "telephone": "+39 0342 887107",
+            "email": "demografici@comune.grosotto.so.it"
+        }
+    },
+    "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Grosotto"
+    },
+    "audience": {
+        "@type": "Audience",
+        "audienceType": "Persone riconosciute invalide con capacità deambulatoria sensibilmente ridotta"
+    },
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "description": "La richiesta del nuovo e rinnovo del contrassegno non prevede costi. In base alle disposizioni comunali possono esserci costi in caso di duplicato."
+    },
+    "category": [
+        "Autorizzazioni",
+        "Mobilità e trasporti",
+        "Salute, benessere e assistenza"
+    ]
+}

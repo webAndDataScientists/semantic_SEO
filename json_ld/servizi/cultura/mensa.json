@@ -1,0 +1,64 @@
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": "Mensa scolastica",
+  "description": "Servizio di mensa scolastica del Comune di Grosotto rivolto agli alunni della scuola dell'infanzia e della scuola primaria.",
+  "category": "Cultura e tempo libero",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Alunni della scuola dell'infanzia e primaria del Comune di Grosotto"
+  },
+  "provider": {
+    "@type": "GovernmentOrganization",
+    "name": "Comune di Grosotto",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Roma, 2",
+      "postalCode": "23034",
+      "addressLocality": "Grosotto",
+      "addressRegion": "SO",
+      "addressCountry": "IT"
+    },
+    "telephone": "+39 0342 887107"
+  },
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": "Comune di Grosotto"
+  },
+  "serviceOutput": {
+    "@type": "Thing",
+    "name": "Accesso al servizio di mensa scolastica"
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Modalità di iscrizione",
+      "value": "L'iscrizione al servizio mensa deve essere presentata la prima volta che si accede al servizio e aggiornata in caso di modifiche per motivi di salute, etici o religiosi."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Requisiti",
+      "value": "Compilazione della modulistica allegata ed essere studente nelle scuole del Comune."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Tempi di ammissione",
+      "value": "L'ammissione alla mensa avviene entro 5 giorni lavorativi dalla protocollazione della richiesta di adesione, salvo diversa comunicazione dell'ufficio amministrativo."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Scadenze",
+      "value": "La domanda di iscrizione al servizio mensa può essere presentata in qualsiasi momento."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Costo",
+      "value": "La contribuzione economica avviene in base all'indicatore ISEE; in caso di mancata presentazione dell'ISEE aggiornato si applica la quota intera."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Menu speciali",
+      "value": "È possibile richiedere menu speciali per esigenze di salute, motivi religiosi o motivi etici."
+    }
+  ]
+}
