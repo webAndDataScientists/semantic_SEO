@@ -16713,63 +16713,59 @@
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@graph": [
+            "@type": "Place",
+            "name": "Municipio",
+            "image": "https://webanddatascientists.github.io/semantic_SEO/content/luoghi_images/municipio.webp",
+            "description": "Municipio del Comune di Grosotto.",
+            "publicAccess": true,
+            "amenityFeature": [
                 {
-                    "@type": "Place",
-                    "name": "Municipio",
-                    "image": "https://webanddatascientists.github.io/semantic_SEO/content/luoghi_images/municipio.webp",
-                    "description": "Municipio del Comune di Grosotto.",
-                    "publicAccess": true,
-                    "amenityFeature": [
-                        {
-                            "@type": "LocationFeatureSpecification",
-                            "name": "Accessibilità",
-                            "value": true,
-                            "description": "Ingresso accessibile in sedia a rotelle. Parcheggio accessibile in sedia a rotelle"
-                        }
+                    "@type": "LocationFeatureSpecification",
+                    "name": "Accessibilità",
+                    "value": true,
+                    "description": "Ingresso accessibile in sedia a rotelle. Parcheggio accessibile in sedia a rotelle"
+                }
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Via Roma, 2",
+                "postalCode": "23034",
+                "addressLocality": "Grosotto",
+                "addressRegion": "SO",
+                "addressCountry": "IT",
+                "email": [
+                    "protocollo@comune.grosotto.so.it",
+                    "protocollo.grosotto@cert.provincia.so.it"
+                ]
+            },
+            "telephone": "+390342887107",
+            "openingHoursSpecification": [
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "https://schema.org/Monday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Friday"
                     ],
-                    "address": {
-                        "@type": "PostalAddress",
-                        "streetAddress": "Via Roma, 2",
-                        "postalCode": "23034",
-                        "addressLocality": "Grosotto",
-                        "addressRegion": "SO",
-                        "addressCountry": "IT"
-                    },
-                    "telephone": "+390342887107",
-                    "email": [
-                        "protocollo@comune.grosotto.so.it",
-                        "protocollo.grosotto@cert.provincia.so.it"
+                    "opens": "08:30",
+                    "closes": "12:30"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "https://schema.org/Tuesday"
                     ],
-                    "openingHoursSpecification": [
-                        {
-                            "@type": "OpeningHoursSpecification",
-                            "dayOfWeek": [
-                                "https://schema.org/Monday",
-                                "https://schema.org/Wednesday",
-                                "https://schema.org/Friday"
-                            ],
-                            "opens": "08:30",
-                            "closes": "12:30"
-                        },
-                        {
-                            "@type": "OpeningHoursSpecification",
-                            "dayOfWeek": [
-                                "https://schema.org/Tuesday"
-                            ],
-                            "opens": "14:00",
-                            "closes": "18:00"
-                        },
-                        {
-                            "@type": "OpeningHoursSpecification",
-                            "dayOfWeek": [
-                                "https://schema.org/Saturday"
-                            ],
-                            "opens": "08:30",
-                            "closes": "12:00",
-                            "description": "Solo I e III sabato del mese - ufficio protocollo e demo-anagrafico."
-                        }
-                    ]
+                    "opens": "14:00",
+                    "closes": "18:00"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "https://schema.org/Saturday"
+                    ],
+                    "opens": "08:30",
+                    "closes": "12:00",
+                    "description": "Solo I e III sabato del mese - ufficio protocollo e demo-anagrafico."
                 }
             ]
         }

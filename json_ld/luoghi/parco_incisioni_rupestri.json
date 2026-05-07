@@ -1,0 +1,123 @@
+{
+    "@context": "https://schema.org",
+    "@type": ["TouristAttraction", "Service"],
+    "name": "Parco Incisioni Rupestri Grosio Grosotto",
+    "image": "https://webanddatascientists.github.io/semantic_SEO/content/luoghi_images/parco_incisioni_rupestri.webp",
+    "description": "Incisioni rupestri della Rupe Magna ed area dei Castelli Medievali.",
+    "publicAccess": true,
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via San Faustino - Ca' del Cap, c/o Castelli Visconti Venosta",
+        "postalCode": "23033",
+        "addressLocality": "Grosio",
+        "addressRegion": "SO",
+        "addressCountry": "IT",
+        "email": "info@parcoincisionigrosio.it"
+    },
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "name": "Parcheggio",
+            "value": "Parcheggi gratuiti in Via San Faustino (Grosio), adiacente alla centrale elettrica A2A. Seguire i cartelli fino al luogo di ritrovo Ca' del Cap."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Visite guidate - periodo estivo",
+            "value": "Dal 1 aprile al 31 ottobre, dal martedì alla domenica. Partenze alle 10:30, 16:00 e 17:00."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Visite guidate - periodo invernale",
+            "value": "Dal 1 novembre al 31 marzo, sabato, domenica e festivi. Partenze alle 10:30 e 14:00."
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Durata visita guidata",
+            "value": "1 ora circa"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Agevolazioni",
+            "value": "Ingresso gratuito per residenti di Grosio e Grosotto, su prenotazione"
+        }
+    ],
+    "offers": [
+        {
+            "@type": "Offer",
+            "name": "Biglietto adulti",
+            "price": "6.00",
+            "priceCurrency": "EUR"
+        },
+        {
+            "@type": "Offer",
+            "name": "Biglietto ragazzi (11-18 anni)",
+            "price": "3.00",
+            "priceCurrency": "EUR"
+        },
+        {
+            "@type": "Offer",
+            "name": "Biglietto minori di 10 anni",
+            "price": "0.00",
+            "priceCurrency": "EUR"
+        }
+    ],
+    "telephone": "+393463331405",
+    "openingHoursSpecification": [
+        {
+            "@type": "OpeningHoursSpecification",
+            "validFrom": "2026-04-01",
+            "validThrough": "2026-10-31",
+            "dayOfWeek": [
+                "https://schema.org/Tuesday",
+                "https://schema.org/Wednesday",
+                "https://schema.org/Thursday",
+                "https://schema.org/Friday",
+                "https://schema.org/Saturday",
+                "https://schema.org/Sunday"
+            ],
+            "opens": "10:00",
+            "closes": "12:30",
+            "description": "Chiuso il lunedì, eccetto se festivo."
+        },
+        {
+            "@type": "OpeningHoursSpecification",
+            "validFrom": "2026-04-01",
+            "validThrough": "2026-10-31",
+            "dayOfWeek": [
+                "https://schema.org/Tuesday",
+                "https://schema.org/Wednesday",
+                "https://schema.org/Thursday",
+                "https://schema.org/Friday",
+                "https://schema.org/Saturday",
+                "https://schema.org/Sunday"
+            ],
+            "opens": "13:30",
+            "closes": "18:00",
+            "description": "Chiuso il lunedì, eccetto se festivo."
+        },
+        {
+            "@type": "OpeningHoursSpecification",
+            "validFrom": "2026-11-01",
+            "validThrough": "2027-03-31",
+            "dayOfWeek": [
+                "https://schema.org/Saturday",
+                "https://schema.org/Sunday"
+            ],
+            "opens": "10:00",
+            "closes": "12:30",
+            "description": "L'infopoint rimane chiuso e non si effettuano visite guidate nei seguenti giorni festivi: 24/25/26 dicembre 31 dicembre 1 gennaio"
+        },
+        {
+            "@type": "OpeningHoursSpecification",
+            "validFrom": "2026-11-01",
+            "validThrough": "2027-03-31",
+            "dayOfWeek": [
+                "https://schema.org/Saturday",
+                "https://schema.org/Sunday"
+            ],
+            "opens": "13:30",
+            "closes": "16:00",
+            "description": "L'infopoint rimane chiuso e non si effettuano visite guidate nei seguenti giorni festivi: 24/25/26 dicembre 31 dicembre 1 gennaio"
+        }
+    ]
+}

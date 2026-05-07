@@ -1,0 +1,59 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Church",
+            "@id": "https://webanddatascientists.github.io/semantic_SEO/pages/luoghi/santuario.html#place",
+            "name": "Santuario della Beata Vergine delle Grazie",
+            "image": "https://webanddatascientists.github.io/semantic_SEO/content/luoghi_images/santuario.webp",
+            "description": "Santuario situato nel Comune di Grosotto, luogo di culto e di interesse storico/culturale del territorio.",
+            "publicAccess": true,
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Via Patrioti, 11",
+                "postalCode": "23034",
+                "addressLocality": "Grosotto",
+                "addressRegion": "SO",
+                "addressCountry": "IT",
+                "email": "info@parrocchiadigrosio.it"
+            },
+            "telephone": "+390342887031",
+            "openingHoursSpecification": [
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "https://schema.org/Monday",
+                        "https://schema.org/Tuesday",
+                        "https://schema.org/Wednesday",
+                        "https://schema.org/Thursday",
+                        "https://schema.org/Friday",
+                        "https://schema.org/Saturday",
+                        "https://schema.org/Sunday"
+                    ],
+                    "opens": "09:00",
+                    "closes": "19:00"
+                }
+            ],
+            "subjectOf": {
+                "@id": "https://webanddatascientists.github.io/semantic_SEO/pages/luoghi/santuario.html#parrocchia"
+            }
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://webanddatascientists.github.io/semantic_SEO/pages/luoghi/santuario.html#parrocchia",
+            "name": "Parrocchia di Grosotto (S. Eusebio)",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Via Roggiale, 2",
+                "postalCode": "23034",
+                "addressLocality": "Grosotto",
+                "addressRegion": "SO",
+                "addressCountry": "IT"
+            },
+            "email": [
+                "info@parrocchiadigrosio.it",
+                "ilario.gaggini@libero.it"
+            ]
+        }
+    ]
+}

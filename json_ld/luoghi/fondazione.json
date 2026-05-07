@@ -1,0 +1,56 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Place",
+    "name": "Fondazione Vita e Salute Grosotto- RSA G. M. Venzoli",
+    "image": "https://webanddatascientists.github.io/semantic_SEO/content/luoghi_images/fondazione.jpg",
+    "description": "Residenza Sanitaria Assistenziale Casa di Riposo.",
+    "publicAccess": true,
+    "amenityFeature": [
+        {
+            "@type": "LocationFeatureSpecification",
+            "name": "Accessibilità",
+            "value": true,
+            "description": "Non ci sono barriere architettoniche che impediscano o limitino l'accesso alla struttura."
+        }
+    ],
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via Roggiale 1",
+        "postalCode": "23034",
+        "addressLocality": "Grosotto",
+        "addressRegion": "SO",
+        "addressCountry": "IT",
+        "email": "info@fondazionevitaesalutegrosotto.it"
+    },
+    "telephone": "0342 848592",
+    "openingHoursSpecification": [
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "https://schema.org/Monday",
+                "https://schema.org/Tuesday",
+                "https://schema.org/Wednesday",
+                "https://schema.org/Thursday",
+                "https://schema.org/Friday",
+                "https://schema.org/Saturday",
+                "https://schema.org/Sunday"
+            ],
+            "opens": "09:30",
+            "closes": "11:30"
+        },
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "https://schema.org/Monday",
+                "https://schema.org/Tuesday",
+                "https://schema.org/Wednesday",
+                "https://schema.org/Thursday",
+                "https://schema.org/Friday",
+                "https://schema.org/Saturday",
+                "https://schema.org/Sunday"
+            ],
+            "opens": "14:30",
+            "closes": "17:30"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "@context": "https://schema.org",
+    "@type": "TouristAttraction",
+    "name": "Antico Torchio di Grosotto",
+    "image": "https://webanddatascientists.github.io/semantic_SEO/content/luoghi_images/torchio.jpg",
+    "description": "Antico Torchio Vinario a Leva del '700.",
+    "publicAccess": true,
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via Patrioti",
+        "postalCode": "23034",
+        "addressLocality": "Grosotto",
+        "addressRegion": "SO",
+        "addressCountry": "IT"
+    },
+    
+    "owner": {
+        "@type": "Organization",
+        "name": "Comune di Grosotto (Municipio)",
+        "telephone": "+390342887107",
+        "email": [
+            "protocollo@comune.grosotto.so.it",
+            "protocollo.grosotto@cert.provincia.so.it"
+        ]
+    }
+}
