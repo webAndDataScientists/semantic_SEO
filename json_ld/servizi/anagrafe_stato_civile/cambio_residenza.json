@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": "Cambio di residenza",
+  "description": "Servizio che permette ai cittadini di dichiarare il trasferimento della propria residenza da un altro Comune italiano o dall'estero verso il Comune di Grosotto, oppure di comunicare il cambio di abitazione all'interno dello stesso territorio comunale.",
+  "serviceType": "Anagrafe e stato civile",
+  "provider": {
+    "@type": "GovernmentOrganization",
+    "name": "Comune di Grosotto",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Roma, 2",
+      "postalCode": "23034",
+      "addressLocality": "Grosotto",
+      "addressRegion": "SO",
+      "addressCountry": "IT"
+    },
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "contactType": "Sportello Ufficio Anagrafe",
+        "telephone": "0342 887107",
+        "email": "demografici@comune.grosotto.so.it",
+        "availableLanguage": "it",
+        "hoursAvailable": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "08:30",
+            "closes": "12:30"
+          }
+        ]
+      },
+      {
+        "@type": "ContactPoint",
+        "contactType": "PEC Protocollo",
+        "email": "protocollo.grosotto@cert.provincia.so.it",
+        "availableLanguage": "it"
+      }
+    ]
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Grosotto"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Cittadini maggiorenni intendono cambiare redisenza"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "EUR",
+    "description": "La dichiarazione di cambio di residenza o di abitazione è completamente gratuita ed esente da imposta di bollo."
+  },
+  "serviceOutput": {
+    "@type": "Thing",
+    "name": "Aggiornamento della residenza nei registri anagrafici (ANPR) e sulla scheda elettorale."
+  },
+  "availableChannel": [
+    {
+      "@type": "ServiceChannel",
+      "name": "Sportello fisico",
+      "serviceLocation": {
+        "@type": "Place",
+        "name": "Ufficio Anagrafe - Comune di Grosotto",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Via Roma, 2",
+          "postalCode": "23034",
+          "addressLocality": "Grosotto",
+          "addressRegion": "SO",
+          "addressCountry": "IT"
+        }
+      }
+    },
+    {
+      "@type": "ServiceChannel",
+      "name": "Posta Elettronica Certificata (PEC)",
+      "serviceUrl": "mailto:protocollo.grosotto@cert.provincia.so.it"
+    },
+    {
+      "@type": "ServiceChannel",
+      "name": "Portale Nazionale ANPR",
+      "serviceUrl": "https://www.anagrafenazionale.interno.it/servizi-al-cittadino/"
+    }
+  ],
+  "hasPart": {
+    "@type": "HowTo",
+    "name": "Procedura per la dichiarazione di cambio di residenza",
+    "description": "Passaggi necessari per presentare correttamente la richiesta di cambio di residenza o abitazione.",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "Compilazione del modulo",
+        "text": "Scaricare e compilare in ogni sua parte il modulo ministeriale di dichiarazione di residenza disponibile sul sito del Comune."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "Raccolta della documentazione",
+        "text": "Allegare la copia di un documento di identità valido di tutti i firmatari e la documentazione che attesti il legittimo possesso dell'immobile (es. rogito, contratto di affitto registrato, dichiarazione di ospitalità)."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "name": "Invio o consegna della richiesta",
+        "text": "Inviare la documentazione tramite PEC, utilizzare il portale online ANPR (accesso con SPID/CIE), oppure consegnarla fisicamente allo sportello dell'Ufficio Anagrafe."
+      }
+    ]
+  }
+}
