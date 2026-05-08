@@ -1,0 +1,127 @@
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": "Emissione di certificati anagrafici",
+  "description": "Servizio di rilascio di certificazioni che riguardano i dati presenti nei registri demografici e nei registri di stato civile",
+  "serviceType": "Anagrafe e stato civile",
+  "provider": {
+    "@type": "GovernmentOrganization",
+    "name": "Comune di Grosotto",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Roma, 2",
+      "postalCode": "23034",
+      "addressLocality": "Grosotto",
+      "addressRegion": "SO",
+      "addressCountry": "IT"
+    },
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "contactType": "Sportello Ufficio Anagrafe e Stato Civile",
+        "telephone": "0342 887107",
+        "email": "demografici@comune.grosotto.so.it",
+        "availableLanguage": "it",
+        "hoursAvailable": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "08:30",
+            "closes": "12:30"
+          }
+        ]
+      },
+      {
+        "@type": "ContactPoint",
+        "contactType": "PEC Protocollo",
+        "email": "protocollo.grosotto@cert.provincia.so.it",
+        "availableLanguage": "it"
+      }
+    ]
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Grosotto"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Cittadini iscritti all'Anagrafe del Comune di Grosotto (o all'A.I.R.E.)."
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "EUR",
+    "description": "Imposta di bollo di 16,00 €. I certificati di stato civile sono sempre esenti da bollo."
+  },
+  "serviceOutput": [
+    { "@type": "Thing", "name": "Certificato di nascita" },
+    { "@type": "Thing", "name": "Certificato di matrimonio" },
+    { "@type": "Thing", "name": "Certificato di cittadinanza" },
+    { "@type": "Thing", "name": "Certificato di esistenza in vita" },
+    { "@type": "Thing", "name": "Certificato di residenza" },
+    { "@type": "Thing", "name": "Certificato di residenza AIRE" },
+    { "@type": "Thing", "name": "Certificato di stato civile" },
+    { "@type": "Thing", "name": "Certificato di stato di famiglia" },
+    { "@type": "Thing", "name": "Certificato di stato di famiglia o di stato civile" },
+    { "@type": "Thing", "name": "Certificato di residenza in convivenza" },
+    { "@type": "Thing", "name": "Certificato di stato di famiglia AIRE" },
+    { "@type": "Thing", "name": "Certificato di stato di famiglia con rapporti di parentela" },
+    { "@type": "Thing", "name": "Certificato di stato libero" },
+    { "@type": "Thing", "name": "Certificato anagrafico di unione civile" },
+    { "@type": "Thing", "name": "Certificato di contratto di convivenza" }
+  ],
+  "availableChannel": [
+    {
+      "@type": "ServiceChannel",
+      "name": "Portale Nazionale ANPR",
+      "description": "Scaricamento immediato e autonomo tramite SPID, CIE o CNS.",
+      "serviceUrl": "https://www.anagrafenazionale.interno.it/servizi-al-cittadino/"
+    },
+    {
+      "@type": "ServiceChannel",
+      "name": "Sportello fisico",
+      "serviceLocation": {
+        "@type": "Place",
+        "name": "Ufficio Anagrafe - Comune di Grosotto",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Via Roma, 2",
+          "postalCode": "23034",
+          "addressLocality": "Grosotto",
+          "addressRegion": "SO",
+          "addressCountry": "IT"
+        }
+      }
+    },
+    {
+      "@type": "ServiceChannel",
+      "name": "Posta Elettronica Ordinaria o Certificata (PEC)",
+      "description": "Per richieste a distanza, allegando copia del documento di identità e specificando l'uso per determinare l'imposta di bollo.",
+      "serviceUrl": "mailto:protocollo.grosotto@cert.provincia.so.it"
+    }
+  ],
+  "hasPart": {
+    "@type": "HowTo",
+    "name": "Procedura per ottenere un certificato",
+    "description": "Modalità e passaggi per richiedere correttamente le certificazioni demografiche.",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "Verifica se puoi usare l'autocertificazione",
+        "text": "Se il certificato è richiesto da un ente pubblico o da un gestore di pubblico servizio, non hai bisogno del certificato"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "Scarica il certificato online tramite ANPR",
+        "text": "Accedi al portale ANPR del Ministero dell'Interno con il tuo SPID o CIE. Puoi scaricare gratuitamente 15 tipologie di certificati per te o per i membri del tuo nucleo familiare."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "name": "Richiesta allo sportello (o via email)",
+        "text": "Per certificati storici, originari o per soggetti esterni al proprio nucleo familiare, compila il modulo di richiesta, indica l'uso che devi farne e rivolgiti all'ufficio anagrafe."
+      }
+    ]
+  }
+}
