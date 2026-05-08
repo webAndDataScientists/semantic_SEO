@@ -1,0 +1,122 @@
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": "Rilascio della carta d'identità elettronica (CIE)",
+  "description": "Servizio per il rilascio o il rinnovo della CIE",
+  "serviceType": "Anagrafe e identità digitale",
+  "termsOfService": "https://www.cartaidentita.interno.gov.it/",
+  "provider": {
+    "@type": "GovernmentOrganization",
+    "name": "Comune di Grosotto",
+    "url": "https://comune.grosotto.so.it/",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Roma, 2",
+      "postalCode": "23034",
+      "addressLocality": "Grosotto",
+      "addressRegion": "SO",
+      "addressCountry": "IT"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Ufficio Anagrafe - Rilascio CIE",
+      "telephone": "0342 887107",
+      "email": "demografici@comune.grosotto.so.it",
+      "availableLanguage": "it",
+      "hoursAvailable": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:30",
+          "closes": "12:30"
+        }
+      ]
+    }
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Grosotto"
+  },
+  "audience": [
+    {
+      "@type": "Audience",
+      "audienceType": "Cittadini residenti nel comune di Grosotto con carta d'identità in scadenza (dal 180° giorno precedente), scaduta, smarrita, rubata o deteriorata"
+    },
+    {
+      "@type": "Audience",
+      "audienceType": "Cittadini non residenti o domiciliati, con autorizzazione specifica del proprio comune di residenza"
+    }
+  ],
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Primo rilascio o rinnovo a scadenza",
+      "price": "22.21",
+      "priceCurrency": "EUR",
+      "description": "Costo per il rilascio della CIE (comprensivo di diritti di segreteria e costo ministeriale)."
+    },
+    {
+      "@type": "Offer",
+      "name": "Duplicato (smarrimento, furto, deterioramento)",
+      "price": "27.37",
+      "priceCurrency": "EUR",
+      "description": "Costo per il rilascio del duplicato prima della naturale scadenza."
+    }
+  ],
+  "serviceOutput": {
+    "@type": "Thing",
+    "name": "Carta d'identità elettronica (CIE) formato tessera tramite raccomandata a domicilio."
+  },
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "name": "Sportello fisico su appuntamento",
+    "serviceLocation": {
+      "@type": "Place",
+      "name": "Ufficio Anagrafe - Comune di Grosotto",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via Roma, 2",
+        "postalCode": "23034",
+        "addressLocality": "Grosotto",
+        "addressRegion": "SO",
+        "addressCountry": "IT"
+      }
+    }
+  },
+  "hasPart": {
+    "@type": "HowTo",
+    "name": "Procedura per ottenere la Carta d'Identità Elettronica",
+    "description": "Procedura dalla preparazione dei documenti fino alla ricezione a casa della nuova CIE.",
+    "tool": [
+      { "@type": "HowToTool", "name": "1 Fototessera recente (non più vecchia di 6 mesi), su sfondo chiaro e senza occhiali" },
+      { "@type": "HowToTool", "name": "Carta d'identità scaduta o in scadenza (o denuncia in caso di furto/smarrimento)" },
+      { "@type": "HowToTool", "name": "Tessera Sanitaria / Codice Fiscale" }
+    ],
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "Prenotazione",
+        "text": "Prenotare l'appuntamento contattando l'ufficio anagrafe o tramite il portale di prenotazione"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "Acquisizione dati allo sportello",
+        "text": "Il giorno dell'appuntamento l'operatore verificherà i dati, acquisirà la foto, le impronte digitali (obbligatorie dai 12 anni in su) e la firma. Verrà richiesto l'eventuale assenso alla donazione di organi"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "name": "Rilascio della ricevuta e dei codici PIN/PUK",
+        "text": "Al termine della pratica verrà rilasciata una ricevuta (valida come documento di riconoscimento in Italia fino alla consegna) e la prima metà dei codici PIN e PUK associati alla CIE"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 4,
+        "name": "Consegna",
+        "text": "La CIE verrà stampata e recapitata tramite raccomandata entro 6 giorni lavorativi all'indirizzo indicato dal cittadino, insieme alla seconda metà dei codici PIN e PUK"
+      }
+    ]
+  }
+}
