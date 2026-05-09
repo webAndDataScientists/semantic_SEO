@@ -1,0 +1,60 @@
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": "Certificato di iscrizione nelle liste elettorali",
+  "description": "Rilascio del certificato che attesta l'iscrizione di un cittadino nelle liste elettorali del Comune di Grosotto",
+  "category": "Anagrafe e stato civile",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Cittadini italiani maggiorenni iscritti nelle liste elettorali del Comune di Grosotto"
+  },
+  "provider": {
+    "@type": "GovernmentOrganization",
+    "name": "Comune di Grosotto",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Roma, 2",
+      "postalCode": "23034",
+      "addressLocality": "Grosotto",
+      "addressRegion": "SO",
+      "addressCountry": "IT"
+    },
+    "telephone": "0342 887107",
+    "email": "demografici@comune.grosotto.so.it"
+  },
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": "Comune di Grosotto"
+  },
+  "serviceOutput": {
+    "@type": "Thing",
+    "name": "Certificato di iscrizione nelle liste elettorali (valido per 6 mesi)"
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Costo",
+      "value": "Il servizio è gratuito. Il certificato è esente da imposta di bollo."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Tempi di rilascio",
+      "value": "Rilascio immediato per richieste allo sportello oppure entro 24/48 ore per richieste via PEC o email."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Canali di erogazione",
+      "value": "Online tramite Portale Nazionale ANPR (con SPID/CIE), Sportello fisico presso l'ufficio, oppure invio tramite PEC o email."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Come ottenere il certificato",
+      "value": "1. Scegliere la modalità (Online, PEC o Sportello). 2. Identificarsi con documento d'identità o identità digitale. 3. Ricevere il certificato immediatamente o via digitale."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Orari sportello",
+      "value": "Lunedì - Venerdì: 08:30 - 12:30"
+    }
+  ]
+}
