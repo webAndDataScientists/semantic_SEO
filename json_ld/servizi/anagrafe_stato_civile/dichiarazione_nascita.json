@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": "Dichiarazione di nascita",
+  "description": "Servizio per denunciare la nascita di un bambino e procedere alla formazione dell'atto di nascita nei registri dello stato civile",
+  "category": "Anagrafe e stato civile",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Uno dei genitori (se coniugati), entrambi (se non coniugati) o il solo genitore che riconosce il figlio"
+  },
+  "provider": {
+    "@type": "GovernmentOrganization",
+    "name": "Comune di Grosotto",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Roma, 2",
+      "postalCode": "23034",
+      "addressLocality": "Grosotto",
+      "addressRegion": "SO",
+      "addressCountry": "IT"
+    },
+    "telephone": "0342 887107",
+    "email": "demografici@comune.grosotto.so.it"
+  },
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": "Comune di Grosotto"
+  },
+  "serviceOutput": {
+    "@type": "Thing",
+    "name": "Formazione dell'atto di nascita e iscrizione anagrafica del neonato."
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Termini per la presentazione",
+      "value": "Entro 3 giorni se resa presso la Direzione Sanitaria dell'ospedale; entro 10 giorni se resa presso il Comune di nascita o di residenza."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Luoghi della dichiarazione",
+      "value": "Direzione Sanitaria dell'ospedale, Comune dove è avvenuto il parto, oppure Comune di residenza dei genitori (o della madre se diversi)."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Costo",
+      "value": "Il servizio è completamente gratuito."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Documentazione necessaria",
+      "value": "Attestazione di nascita (rilasciata dall'ostetrica o dal medico) e documento d'identità valido dei dichiaranti."
+    }
+  ]
+}
