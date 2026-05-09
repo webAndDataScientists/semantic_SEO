@@ -1,0 +1,60 @@
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": "Accordo di separazione o di divorzio consensuale davanti all'ufficiale di stato civile",
+  "description": "Procedura per concludere un accordo di separazione o di divorzio (o di modifica delle precedenti condizioni) davanti all'ufficiale di stato civile",
+  "category": "Anagrafe e stato civile",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Coniugi residenti a Grosotto o che si sono sposati a Grosotto, senza figli minori, maggiorenni portatori di handicap o non autosufficienti."
+  },
+  "provider": {
+    "@type": "GovernmentOrganization",
+    "name": "Comune di Grosotto",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Roma, 2",
+      "postalCode": "23034",
+      "addressLocality": "Grosotto",
+      "addressRegion": "SO",
+      "addressCountry": "IT"
+    },
+    "telephone": "0342 887107",
+    "email": "demografici@comune.grosotto.so.it"
+  },
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": "Comune di Grosotto"
+  },
+  "serviceOutput": {
+    "@type": "Thing",
+    "name": "Atto di separazione o di divorzio consensuale"
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Costo",
+      "value": "Diritto fisso di € 16,00 da versare al momento della firma dell'accordo."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Requisiti essenziali",
+      "value": "Assenza di figli minori, figli maggiorenni incapaci o portatori di handicap grave, o figli maggiorenni non economicamente autosufficienti"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Tempi della procedura",
+      "value": "Prevista una doppia comparizione: dopo la prima firma, devono trascorrere almeno 30 giorni prima della conferma definitiva dell'accordo"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Documentazione richiesta",
+      "value": "Documenti d'identità validi e dichiarazione sostitutiva (autocertificazione)"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Assistenza legale",
+      "value": "L'assistenza di un avvocato è facoltativa."
+    }
+  ]
+}
