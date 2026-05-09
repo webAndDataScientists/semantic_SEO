@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": "Certificato di nascita per cittadini europei",
+  "description": "Rilascio del certificato di nascita plurilingue per l'utilizzo all'estero senza necessità di traduzione",
+  "category": "Anagrafe e stato civile",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Cittadini europei o residenti il cui atto di nascita è registrato nel Comune di Grosotto"
+  },
+  "provider": {
+    "@type": "GovernmentOrganization",
+    "name": "Comune di Grosotto",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Roma, 2",
+      "postalCode": "23034",
+      "addressLocality": "Grosotto",
+      "addressRegion": "SO",
+      "addressCountry": "IT"
+    },
+    "telephone": "+0342 887107",
+    "email": "demografici@comune.grosotto.so.it"
+  },
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": "Comune di Grosotto"
+  },
+  "serviceOutput": {
+    "@type": "Thing",
+    "name": "Certificato di nascita internazionale"
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Costo",
+      "value": "Il servizio è gratuito se l’uso per cui lo richiedi rientra tra i motivi di esenzione previsti dalla legge. In tutti gli altri casi, è previsto il pagamento di un’imposta di bollo di 16€"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Tempi di rilascio",
+      "value": "Rilascio immediato"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Modalità di richiesta",
+      "value": "Presso l'Ufficio Stato Civile del Comune, via PEC o tramite i canali digitali abilitati, previa esibizione di un documento di identità."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Validità",
+      "value": "Il certificato ha una validità di 3 mesi dalla data di emissione"
+    }
+  ]
+}
