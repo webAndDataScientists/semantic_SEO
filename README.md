@@ -57,3 +57,9 @@ semantic_SEO/
 ├── googlebcf34ff15f635918.html      # Google Search Console verification file
 ├── index.html                       # Website homepage
 └── README.md                        # Project documentation
+```
+
+## Authors
+
+- [Alessandro Del Fatti](https://github.com/AlessandroDF)
+- [Matteo Gatti](https://github.com/matti8702)
