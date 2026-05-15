@@ -56,7 +56,9 @@ semantic_SEO/
 │
 ├── googlebcf34ff15f635918.html      # Google Search Console verification file
 ├── index.html                       # Website homepage
+├── sitemap.xml                      # Sitemap 
 └── README.md                        # Project documentation
+
 ```
 
 ## Authors
