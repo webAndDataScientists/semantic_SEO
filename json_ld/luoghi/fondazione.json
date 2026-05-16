@@ -20,7 +20,10 @@
         "addressLocality": "Grosotto",
         "addressRegion": "SO",
         "addressCountry": "IT",
-        "email": "info@fondazionevitaesalutegrosotto.it"
+        "email": [
+            "info@fondazionevitaesalutegrosotto.it",
+            "fondazionevitaesalutegrosotto@legalmail.it"
+        ]
     },
     "telephone": "0342 848592",
     "openingHoursSpecification": [
