@@ -1,0 +1,93 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Festival",
+    "name": "Festa alpina a Chemp del Van - Vedecc",
+    "description": "Tradizionale festa alpina aperta a tutti i cittadini. Il programma prevede la Santa Messa e, a seguire, un classico pranzo alpino con polenta e salsicce. Ingresso libero all'area, è preferibile la prenotazione per il pranzo.",
+    "image": "https://webanddatascientists.github.io/semantic_SEO/content/eventi_images/grosotto1-5.jpg",
+    "url": "https://webanddatascientists.github.io/semantic_SEO/pages/eventi/festa-alpini-vedec/",
+    "startDate": "2026-06-13T18:00:00+02:00",
+    "endDate": "2026-06-14T16:00:00+02:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "isAccessibleForFree": true,
+    "typicalAgeRange": "0-",
+    "location": {
+        "@type": "Place",
+        "name": "Chemp del Van - Vedecc",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Grosotto",
+            "addressRegion": "SO",
+            "postalCode": "23034",
+            "addressCountry": "IT"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "46.291834",
+            "longitude": "10.254965"
+        }
+    },
+    "organizer": {
+        "@type": "Organization",
+        "name": "Gruppo Alpini di Grosotto",
+        "email": "grosotto.valtellinese@ana.it"
+    },
+    "offers": {
+        "@type": "Offer",
+        "name": "Pranzo Alpino (Polenta e Salsicce)",
+        "description": "Pranzo tradizionale preparato dagli Alpini. È gradita e preferibile la prenotazione scrivendo a grosotto.valtellinese@ana.it",
+        "availability": "https://schema.org/PreOrder",
+        "url": "mailto:grosotto.valtellinese@ana.it",
+        "price": "15.00",
+        "priceCurrency": "EUR",
+        "validFrom": "2026-03-16T08:00:00+01:00"
+    },
+    "subEvent": [
+        {
+            "@type": "Event",
+            "name": "Santa Messa",
+            "description": "Celebrazione della Santa Messa",
+            "startDate": "2026-06-14T11:00:00+02:00",
+            "endDate": "2026-06-14T12:00:00+02:00",
+            "location": {
+                "@type": "Place",
+                "name": "Chemp del Van - Vedecc",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Grosotto",
+                    "addressRegion": "SO",
+                    "postalCode": "23034",
+                    "addressCountry": "IT"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": "46.291834",
+                    "longitude": "10.254965"
+                }
+            }
+        },
+        {
+            "@type": "FoodEvent",
+            "name": "Pranzo Alpino",
+            "description": "Pranzo conviviale a base di polenta e salsicce.",
+            "startDate": "2026-06-14T12:30:00+02:00",
+            "endDate": "2026-06-14T16:00:00+02:00",
+            "location": {
+                "@type": "Place",
+                "name": "Chemp del Van - Vedecc",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Grosotto",
+                    "addressRegion": "SO",
+                    "postalCode": "23034",
+                    "addressCountry": "IT"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": "46.291834",
+                    "longitude": "10.254965"
+                }
+            }
+        }
+    ]
+}

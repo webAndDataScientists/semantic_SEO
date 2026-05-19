@@ -40,6 +40,7 @@ semantic_SEO/
 │   └── luoghi_images/               
 │
 ├── json_ld/                         # JSON-LD structured data files
+│   ├── eventi/
 │   ├── luoghi/                      
 │   ├── servizi/                     
 │   ├── domande-frequenti.json       

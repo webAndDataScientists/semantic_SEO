@@ -1,0 +1,95 @@
+{
+    "@context": "https://schema.org",
+    "@type": "BusinessEvent",
+    "name": "Assemblea Ordinaria - Consorzio di Miglioramento Fondiario del Mortirolo",
+    "description": "Assemblea Ordinaria dei Soci del Consorzio. All'ordine del giorno: approvazione bilancio consuntivo 2025 e previsionale 2026, rinnovo cariche sociali e delibere amministrative. Ammessa delega scritta.",
+    "image": "https://www.parrocchiagrosotto.it/Foto%20Chiese/Mortirolo/1.jpg",
+    "startDate": "2026-03-27T19:30:00+01:00",
+    "endDate": "2026-03-27T23:30:00+01:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "audience": {
+        "@type": "Audience",
+        "audienceType": "Soci del Consorzio"
+    },
+    "location": {
+        "@type": "Place",
+        "name": "Sala 'Don Rapella' - Oratorio di Grosotto",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Via Statale",
+            "addressLocality": "Grosotto",
+            "addressRegion": "SO",
+            "postalCode": "23034",
+            "addressCountry": "IT"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "46.278725",
+            "longitude": "10.258436"
+        },
+        "url": "https://www.parrocchiagrosotto.it/Oratorio.html"
+    },
+    "organizer": {
+        "@type": "Organization",
+        "name": "Consorzio di Miglioramento Fondiario del Mortirolo",
+        "taxID": "92002060140",
+        "email": "comifo.mortirolo@gmail.com",
+        "location": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Via Roma 2",
+                "extendedAddress": "C/O Comune di Grosotto",
+                "postalCode": "23034",
+                "addressLocality": "Grosotto",
+                "addressRegion": "SO",
+                "addressCountry": "IT"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "46.279826",
+                "longitude": "10.258357"
+            },
+            "url": "https://www.comune.grosotto.so.it/"
+        }
+    },
+    "subEvent": [
+        {
+            "@type": "BusinessEvent",
+            "name": "Prima Convocazione",
+            "startDate": "2026-03-27T19:30:00+01:00",
+            "endDate": "2026-03-27T22:30:00+01:00",
+            "location": {
+                "@type": "Place",
+                "name": "Sala 'Don Rapella' - Oratorio di Grosotto",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Via Statale",
+                    "addressLocality": "Grosotto",
+                    "addressRegion": "SO",
+                    "postalCode": "23034",
+                    "addressCountry": "IT"
+                }
+            }
+        },
+        {
+            "@type": "BusinessEvent",
+            "name": "Seconda Convocazione",
+            "startDate": "2026-03-27T20:30:00+01:00",
+            "endDate": "2026-03-27T23:30:00+01:00",
+            "location": {
+                "@type": "Place",
+                "name": "Sala 'Don Rapella' - Oratorio di Grosotto",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Via Statale",
+                    "addressLocality": "Grosotto",
+                    "addressRegion": "SO",
+                    "postalCode": "23034",
+                    "addressCountry": "IT"
+                }
+            }
+        }
+    ]
+}
